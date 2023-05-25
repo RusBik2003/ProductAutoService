@@ -1,0 +1,15 @@
+﻿<Application x:Class="ProductAutoService.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProductAutoService"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="NullImage" TargetType="Image">
+            <Setter Property="Source" Value="/Resource/DefImage.jpeg"></Setter>
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="Source" Value="/Resource/DefImage.jpeg"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
